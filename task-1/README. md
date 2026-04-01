@@ -1,0 +1,26 @@
+# Task 1: C++ Assignment
+
+## Question 1: Mega Data Type
+- Maximum addressable width = 2 bytes
+- 1 byte = 8 bits
+- Mega = largest supported data type
+- Calculation: 2 bytes × 8 bits = **16 bits**
+- ✅ Answer: Mega = 16 bits
+
+---
+
+## Question 2: Namespaces
+- Two namespaces: `intSum` and `longSum`
+- Each has a `sum` function:
+  - `intSum::sum(int a, int b)` returns `int`
+  - `longSum::sum(long a, long b)` returns `long`
+- Called both functions in `main` and displayed results
+
+---
+
+## Question 3: Unsigned Integer Underflow
+### Code:
+```cpp
+unsigned int x = 0;
+x = x - 1;
+cout << x << endl;
